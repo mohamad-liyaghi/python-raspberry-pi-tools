@@ -23,7 +23,7 @@ $ git clone https://github.com/Ml06py/raspberry-pi-thermometer.git
 
 ## Step 5:
 ```
-$ cd raspberry-pi-thermometer
+$ cd raspberry-pi-tools/raspberry-thermometer/
 ```
 
 ## Step 6:
