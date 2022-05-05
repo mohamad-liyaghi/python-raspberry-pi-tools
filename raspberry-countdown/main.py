@@ -19,9 +19,12 @@ reset_button = Pin(15, Pin.IN, Pin.PULL_DOWN)
 minuet = 0
 second = 0
 status = False
-
 while True:
-    
+    given_minuet = minuet
+    one_forth.value(0)
+    two_forth.value(0)
+    three_forth.value(0)
+    four_forth.value(0)
     if reset_button.value():
         time.sleep(0.20)
         minuet = 0
@@ -60,4 +63,14 @@ while True:
         time.sleep(1)
         print(f"{minuet}:{second}")
 
+        
+        if minuet <= given_minuet * 0.75 :
+            one_forth.value(1)
+        if minuet <= given_minuet * 0.5 :
+            two_forth.value(1)
+        if minuet <= given_minuet * 0.25 :
+            three_forth.value(1)
+        if minuet == 0:
+            four_forth.value(1)
+            
 
