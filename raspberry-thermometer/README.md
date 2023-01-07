@@ -18,7 +18,7 @@ This project can show you how warm is your place, via LEDs.
 
 ## Step 4:
 ```
-$ git clone https://github.com/Ml06py/raspberry-pi-thermometer.git
+$ git clone https://github.com/mohamad-liyaghi/python-raspberry-pi-tools
 ```
 
 ## Step 5:

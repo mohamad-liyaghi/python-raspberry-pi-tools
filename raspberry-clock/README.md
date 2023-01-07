@@ -18,7 +18,7 @@ This project can show you what time is it, via LEDs.
 
 ## Step 4:
 ```
-$ git clone https://github.com/Ml06py/raspberry-pi-tools.git
+$ git clone https://github.com/mohamad-liyaghi/python-raspberry-pi-tools
 ```
 
 ## Step 5:
